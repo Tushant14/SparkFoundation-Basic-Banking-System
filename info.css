@@ -1,0 +1,58 @@
+* {
+    padding: 0.5px;
+    border: 5px;
+}
+
+.user-info,
+.receiver-info h1 {
+    color: black;
+    padding-top: 2%;
+    border-width: thin;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info {
+    display: inline-table;
+    padding-inline: 75px;
+    padding-top: 1%;
+    background-color: rgb(238, 104, 104);
+    letter-spacing: 1px;
+    border-inline-color: black;
+}
+
+.selectInput-section .select-sender {
+    background-color: rgb(208, 210, 224);
+    box-sizing: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    max-inline-size: 25%;
+    inline-size: unset;
+    padding-inline: 50px;
+    margin-inline-start: 37%;
+}
+
+.amountInput-section {
+    margin-inline-start: 44%;
+    padding-top: 2px;
+}
+
+.submit {
+    margin-inline-start: 47%;
+    padding-top: 25px;
+    border-color: #171bf3;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.submit .submit-btn {
+    padding: 6px 12px;
+    border: 0px;
+    border-radius: 6px;
+    padding: 10px;
+    background: #171bf3;
+    color: black;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    transition: 0.5s;
+}
